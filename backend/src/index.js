@@ -9,8 +9,6 @@ mongoose.connect('mongodb+srv://gustavo:gustavo12@cluster0-et6gz.mongodb.net/tes
     useNewUrlParser:true,
 });
 
-
-
 app.use(require('./routes'))
 
 app.listen(3333);
