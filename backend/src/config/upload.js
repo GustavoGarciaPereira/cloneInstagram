@@ -9,4 +9,4 @@ module.exports = {
             cb(null, file.originalname);
         }
     })
-}
+};
